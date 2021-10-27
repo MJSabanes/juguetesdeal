@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bubblegum+Sans&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #40739e;
+	color: #f5f6fa;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.header p{
+	font-family: 'Black Han Sans', sans-serif;
+	font-size: 2em;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.contenedor{
+	width: 100%;
+	max-width: 1200px;
+
+	margin: auto;
+	font-size: 1em;
+	line-height: 50px;
+	text-align: center;
+display: grid; /* declara al contenedor como una cuadricula */
+	grid-gap: 40px;   /* separacion entre elementos */
+
+	grid-template-columns: auto auto;  /*200px 300px;  minmax(300px, 1fr) 1fr; funcion que establece el tamaño minimo y maximo de una columna  */
+	grid-template-rows: 500px 250px 250px;
+}
+
+.contenedor > div{
+	display: block;
+
+	color: #f5f6fa;
+	background-color: #003d99;
+	box-shadow: 2px 2px 10px rgba(0,0,0,.25)
+
+
+}
+.contenedor2{
+	justify-self: center;
+	align-self: center;
+}	
+
+/* funcion minmax() */
+
+#foto1{ Width: 500px
+heigh: 400px }
+
+.header{
+	background-color: #ad0101;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 1;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 2; /* especifica donde finaliza la fila */
+ }
+
+
+#madera{
+background:
+url(pollo.png) right bottom no-repeat,
+url(pollo.png) left bottom no-repeat,
+url(pollo.png) left top no-repeat,
+url(pollo.png) right top no-repeat,
+url(madera.png) 0 0;
+}
+
+p{
+display: block;
+text-align: center;
+font-size: 20px;
+color: #ffffff;
+font-family: 'Bubblegum Sans', cursive;
+} 
+
+
