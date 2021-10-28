@@ -1,9 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&family=Bubblegum+Sans&display=swap');
-
-*{
-	margin: 0;
-	padding: 0;
-}
 body{
 	background: #40739e;
 	color: #f5f6fa;
@@ -60,6 +54,7 @@ heigh: 400px }
 
 	grid-row-start: 1;  /* especifica donde comenzar la fila (2) */
 	grid-row-end: 2; /* especifica donde finaliza la fila */
+	margin-bottom: 3%;
  }
 
 
@@ -81,3 +76,13 @@ font-family: 'Bubblegum Sans', cursive;
 } 
 
 
+.footer{
+	background-color: #ad0101;
+	
+
+	grid-column-start: 1; /* especifica donde comenzar la columna (2) */
+	grid-column-end: -1; /* especifica donde finalizar la columna  (-1)*/
+
+	grid-row-start: 7;  /* especifica donde comenzar la fila (2) */
+	grid-row-end: 8; /* especifica donde finaliza la fila */
+}
